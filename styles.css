@@ -26,7 +26,7 @@ html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-t
 body{background:var(--cream);color:var(--ink);font-family:var(--text);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--cream)}
 a{color:inherit}
-img{display:block;max-width:100%}
+img{display:block;max-width:100%;height:auto}
 p{margin:0}
 .wrap{max-width:calc(1200px + 2*var(--side));margin:0 auto;padding-left:max(var(--side),env(safe-area-inset-left,0px));padding-right:max(var(--side),env(safe-area-inset-right,0px))}
 section{padding-block:var(--sec)}
