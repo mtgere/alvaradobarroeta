@@ -104,7 +104,7 @@ h2{font-size:56px;line-height:1.05;letter-spacing:-.01em}
 .lamina figcaption{padding-left:178px;font-size:11px}
 .heraldica{position:absolute;left:0;top:286px;width:240px;background:var(--navy);color:var(--cream);padding:22px 20px;text-align:center;box-shadow:0 18px 40px rgba(30,27,22,.28);display:grid;gap:12px;justify-items:center}
 .heraldica .label{color:var(--gold)}
-.heraldica img{width:92px}
+.heraldica img{width:92px;height:auto}
 .heraldica p.t{font-style:italic;font-size:16px;line-height:1.5}
 .heraldica blockquote{margin:0;padding-top:16px;border-top:1px solid var(--gold);font-family:var(--display);font-style:italic;font-weight:500;font-size:19px;line-height:1.25}
 .hero-copy>*{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
