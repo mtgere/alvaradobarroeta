@@ -358,6 +358,8 @@ footer{background:var(--dark);color:var(--cream);padding-block:64px calc(48px + 
 .f-links ul{list-style:none;margin:0;padding:0;display:grid;gap:10px;font-family:var(--ui);font-weight:500;font-size:14px}
 .f-links a{text-decoration:none;color:rgba(244,238,227,.9)} .f-links a:hover{color:var(--gold)}
 .f-links .label{color:var(--gold);letter-spacing:.14em;margin-bottom:14px}
+.f-bottom a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.f-bottom a:hover{color:var(--gold)}
 .f-bottom{margin-top:40px;padding-top:20px;border-top:1px solid var(--line-light);font-family:var(--ui);font-weight:500;font-size:12px;color:rgba(244,238,227,.72)}
 @media (max-width:720px){footer{padding-block:48px calc(48px + env(safe-area-inset-bottom,0px))}.f-top{flex-direction:column;gap:32px}.f-links{gap:56px}.f-links>div{flex:1}}
 .top-btn{position:fixed;right:calc(20px + env(safe-area-inset-right,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:40;width:48px;height:48px;border-radius:50%;border:none;background:var(--red);color:var(--cream);font-family:var(--ui);font-weight:600;font-size:20px;cursor:pointer;box-shadow:0 8px 20px rgba(30,27,22,.25);opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none}
